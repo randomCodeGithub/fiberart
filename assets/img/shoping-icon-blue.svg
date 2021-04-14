@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="shoping-icon" transform="translate(-9113 116)">
+    <rect id="click_touch_field" data-name="click touch field" width="24" height="24" transform="translate(9113 -116)" fill="none"/>
+    <g id="shopping-card-icon" transform="translate(8947.554 -381.86)">
+      <g id="Group_2" data-name="Group 2" transform="translate(174.792 282.784)">
+        <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+          <path id="Path_198" data-name="Path 198" d="M252.436,452.894a1.384,1.384,0,1,0,1.384,1.384A1.384,1.384,0,0,0,252.436,452.894Zm0,2a.611.611,0,1,1,.611-.611A.611.611,0,0,1,252.436,454.89Z" transform="translate(-251.052 -452.894)" fill="#1C68A1"/>
+        </g>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(179.647 282.784)">
+        <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+          <path id="Path_199" data-name="Path 199" d="M326.55,452.894a1.384,1.384,0,1,0,1.384,1.384A1.384,1.384,0,0,0,326.55,452.894Zm0,2a.611.611,0,1,1,.611-.611A.611.611,0,0,1,326.55,454.89Z" transform="translate(-325.166 -452.894)" fill="#1C68A1"/>
+        </g>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(169.446 270.86)">
+        <g id="Group_5" data-name="Group 5" transform="translate(0)">
+          <path id="Контур_233" data-name="Контур 233" d="M185.428,274.446l-1.082,5.247a.912.912,0,0,1-.885.721h-9.395l.174.842h9.15a.517.517,0,0,1,.517.518.518.518,0,0,1-.518.517h-9.256a.911.911,0,0,1-.885-.721l-1.855-9.009-1.634-.709a.517.517,0,1,1,.413-.948l1.7.736a.9.9,0,0,1,.525.647l.221,1.075h11.928a.9.9,0,0,1,.886,1.086Z" transform="translate(-169.446 -270.86)" fill="#1C68A1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
