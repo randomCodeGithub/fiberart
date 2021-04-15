@@ -54,6 +54,16 @@ nav form input.search {
   padding-left: 1.1rem;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .custom-search-form {
   display: none;
 }
@@ -587,6 +597,7 @@ main .container-fluid > .row > .col-12 > .position-relative {
   border-bottom: 2px solid rgba(28, 104, 161, 0.3) !important;
   padding-bottom: 0.8rem;
   margin-bottom: 2.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 input,
@@ -1028,6 +1039,27 @@ footer .copyright {
 .count {
   border: 2px solid #1c68a1;
   border-radius: 7px;
+  position: relative;
+}
+
+.product-info .count {
+  height: 44px;
+}
+
+.count .plus {
+  position: absolute;
+  top: -0.1px;
+  right: -1px;
+  height: 42px !important;
+  width: 40px;
+}
+
+.product-info .count .plus {
+  border-radius: 0px 6px 7px 0px;
+}
+
+.cart .count .plus {
+  border-radius: 0px 6px 5px 0px;
 }
 
 .product-info .count {
@@ -1054,8 +1086,7 @@ footer .copyright {
 }
 
 .product-info .count .minus,
-.product-info .count input,
-.product-info .count .plus {
+.product-info .count input {
   width: 40px;
   height: 40px !important;
 }
@@ -1074,7 +1105,7 @@ footer .copyright {
 }
 
 .product-info .add-to-cart,
-.product-info .btn-link,
+.product-info .btn-link:not(.product .btn-link, .more-product),
 .cart .btn-link,
 .cart .buy {
   width: 100%;
@@ -1553,7 +1584,7 @@ table li {
 .cart .count input,
 .cart .count .plus {
   width: 44px;
-  height: 24px !important;
+  height: 25px !important;
 }
 
 .cart .product-item .position-absolute {

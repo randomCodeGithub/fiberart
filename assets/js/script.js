@@ -158,3 +158,20 @@ $(document).on("click", ".minus", function () {
   }
   $(count).val(parseInt($(count).val()) - 1);
 });
+
+//input field focused/unfocused style
+
+$(".contact .form-group input").focus(function () {
+  $(this)
+    .parent()
+    .attr(
+      "style",
+      "border-bottom: 2px solid rgba(28, 104, 161, 1) !important;"
+    );
+});
+
+$(".contact .form-group input").focusout(function () {
+  if ($(this).val().length == 0) {
+    $(this).parent().attr("style", "");
+  }
+});
